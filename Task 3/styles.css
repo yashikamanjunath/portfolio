@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #045d84;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 2rem 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  section h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .project-card img {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    border-radius: 8px; 
+    text-align: center;
+}
+
+/* Hover Effects for Section Titles */
+section h2 {
+    color: #333; 
+    transition: color 0.3s ease;
+}
+
+section h2:hover {
+    color: #ff6b6b; 
+}
+
+/* Header Color Update */
+header {
+    background: linear-gradient(to right, #4a90e2, #50e3c2); 
+    color: #fff; 
+}
+
+/* Button and Link Hover Effects */
+header nav ul li a:hover, form button:hover {
+    color: #ff6b6b; 
+}
+
+/* Project Card Hover Effect */
+.project-card {
+    background: #f4f4f4; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-card:hover {
+    background: #ffefd5; 
+    transform: translateY(-5px); 
+}
+  }
+  
+  #contact {
+    padding: 2rem 0;
+    background-color: #fff;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
